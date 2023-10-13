@@ -1,0 +1,38 @@
+{
+  "name": "sqs-leetcode-rank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "SQS",
+  "license": "ISC",
+  "input": "main.js",
+  "output": "leetcode-rank.exe",
+  "flags": "--experimental-modules",
+  "bin": {
+    "leetcode-rank": "main.js"
+  },
+  "pkg": {
+    "scripts": "main.js",
+    "targets": [
+      "node16-win-x64"
+    ],
+    "assets": [
+      "main.js",
+      "LeetCode.js",
+      "Base.js",
+      "AcWing.js",
+      "node_modules/**/*"
+    ]
+  },
+  "scripts": {
+    "start": "node main.js",
+    "install-pkg": "cnpm install -g pkg",
+    "pkg-build-win": "pkg . --target win --node-version 16.17.0 --public --compress Brotli"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "exceljs": "^4.3.0",
+    "jsdom": "^22.1.0",
+    "sqs-console": "^1.0.1"
+  }
+}
