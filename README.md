@@ -1,4 +1,5 @@
-# 力扣和AcWing周赛排名爬取工具
+# LTPP 宇宙文档
 
-#### 介绍
-力扣和AcWing周赛排名爬取工具
+> [GITHUB 静态页](https://ltpp-system.github.io/ltpp-docs/LTPP-LEETCODE-AND-ACWING-RANK)
+
+> [LTPP-GITLAB 静态页](https://root.pages.ltpp.vip/ltpp-docs/LTPP-LEETCODE-AND-ACWING-RANK)
